@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Dimensions, ActivityIndicator } from 'react-native';
 
 import * as Location from 'expo-location';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
-const API_KEY = "6a596e75a951b56f7a2582db316d341d";
+const API_KEY = "ec148438154cc7e76040d00ef7ac86d8";
 
 export default function App() {
   const [city, setCity] = useState("Loading...")
@@ -22,10 +22,9 @@ export default function App() {
     const location = await Location.reverseGeocodeAsync({latitude, longitude}, {useGoogleMaps: false});
 
     setCity(location[0].district);
-    const response = await fetch(`https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`);
+    const response = await fetch(`https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`);
     const json = await response.json();
     setDays(json.daily);
-    console.log(json);
   }
   useEffect(() => {
     getWeather();
@@ -42,7 +41,19 @@ export default function App() {
         horizontal
         showsHorizontalScrollIndicator={false} 
         contentContainerStyle={styles.weather}>
-        {/* {days.length === 0 ? "" : <View style={styles.day}></View>} */}
+        {days.length === 0 ? ( 
+          <View style={styles.day}>
+            <ActivityIndicator color="white" size="large" style={{ marginTop: 10 }}/>
+          </View> 
+        ) : ( 
+          days.map((day, index) => 
+            <View key={index} style={styles.day}>
+              <Text style={styles.temp}>{parseFloat(day.temp.day).toFixed(1)}</Text>
+              <Text style={styles.description}>{day.weather[0].main}</Text>
+              <Text stye={styles.tinyText}>{day.weather[0].description}</Text>
+            </View>
+          )
+        )}
       </ScrollView>
     </View>
   );
@@ -76,7 +87,10 @@ const styles = StyleSheet.create({
   description: {
     marginTop: -30,
     fontSize: 60,
-  }
+  },
+  tinyText: {
+    fontSize: 20,
+  },
 })
 
 

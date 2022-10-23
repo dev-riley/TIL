@@ -1,7 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, TextInput, ScrollView } from 'react-native';
+import { useEffect, useState } from 'react';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput, ScrollView, Alert } from 'react-native';
+import AsnyncStorage from '@react-native-async-storage/async-storage';
+import {Fontisto} from "@expo/vector-icons";
 import { theme } from './color';
+
+const STORAGE_KEY = "@toDos"
 
 export default function App() {
   const [working, setWorking] = useState(true);
@@ -9,18 +13,44 @@ export default function App() {
   const [toDos, setToDos] = useState({});
   const travel = () => setWorking(false);
   const work = () => setWorking(true);
-  const onChangeText = (payload) => setText(payload)
-  const addToDo = () => {
+  const onChangeText = (payload) => setText(payload);
+  const saveToDos = async (toSave) => {
+    await AsnyncStorage.setItem(STORAGE_KEY, JSON.stringify(toSave))
+  };
+  const loadToDos = async () => {
+    const s = await AsnyncStorage.getItem(STORAGE_KEY)
+    s !== null ? setToDos(JSON.parse(s)): null;
+  }
+  useEffect(() => {
+    loadToDos();
+  }, []);
+  const addToDo = async () => {
     if(text === "") {
       return;
     }
-    const newToDos = Object.assign(
-      {},
-      toDos,
-      {[Date.now()]: {text, work: working}},
-      )
+    const newToDos = {
+      ...toDos,
+      [Date.now()]: {text, working},
+    };
     setToDos(newToDos);
+    await saveToDos(newToDos);
     setText("");
+  }
+  const deleteToDo = (key) => {
+    Alert.alert(
+      "Delete To Do?", 
+      "Are you sure?", [
+      { text: "Cancel" },
+      { text: "I'm Sure", onPress: async () => {
+        const newToDos = {...toDos}
+        delete newToDos[key]
+        setToDos(newToDos);
+        await saveToDos(newToDos);
+      },
+     },
+    ]);
+    return;
+    
   }
 
   return (
@@ -47,6 +77,9 @@ export default function App() {
           toDos[key].working === working ? (
             <View style = {styles.toDo} key={key}>
               <Text style = {styles.toDoText}>{toDos[key].text}</Text>
+              <TouchableOpacity onPress={() => deleteToDo(key)}>
+                <Fontisto name="trash" size={18} color={theme.grey}/>
+              </TouchableOpacity>
             </View>
           ) : null
         )}
@@ -84,6 +117,9 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 20,
     borderRadius: 15,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between"
   },
   toDoText: {
     color: "white",

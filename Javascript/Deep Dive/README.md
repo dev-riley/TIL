@@ -10,7 +10,7 @@
 | 2장  | 자바스크립트란?                                      |            |      |                                                              |
 | 3장  | 자바스크립트 개발 환경과 실행 방법                   |            |      |                                                              |
 | 4장  | 변수                                                 | 2022-10-21 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/4%EC%9E%A5.%20%EB%B3%80%EC%88%98.md) |
-| 5장  | 표현식과 문                                          |            |      |                                                              |
+| 5장  | 표현식과 문                                          | 2022-10-24 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/5%EC%9E%A5.%20%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC%20%EB%AC%B8.md) |
 | 6장  | 데이터 타입                                          |            |      |                                                              |
 | 7장  | 연산자                                               |            |      |                                                              |
 | 8장  | 제어문                                               |            |      |                                                              |

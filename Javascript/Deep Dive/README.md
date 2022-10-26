@@ -12,7 +12,7 @@
 | 4장  | 변수                                                 | 2022-10-21 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/4%EC%9E%A5.%20%EB%B3%80%EC%88%98.md) |
 | 5장  | 표현식과 문                                          | 2022-10-24 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/5%EC%9E%A5.%20%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC%20%EB%AC%B8.md) |
 | 6장  | 데이터 타입                                          | 2022-10-25 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/6%EC%9E%A5.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md) |
-| 7장  | 연산자                                               |            |      |                                                              |
+| 7장  | 연산자                                               | 2022-10-26 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/7%EC%9E%A5.%20%EC%97%B0%EC%82%B0%EC%9E%90.md) |
 | 8장  | 제어문                                               |            |      |                                                              |
 | 9장  | 타입 변환과 단축 평가                                |            |      |                                                              |
 | 10장 | 객체 리터럴                                          |            |      |                                                              |

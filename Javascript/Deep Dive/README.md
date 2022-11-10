@@ -18,7 +18,7 @@
 | 10장 | 객체 리터럴                                          | 2022-11-02 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/10%EC%9E%A5.%20%EA%B0%9D%EC%B2%B4%20%EB%A6%AC%ED%84%B0%EB%9F%B4.md) |
 | 11장 | 원시 값과 객체의 비교                                | 2022-11-04 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/11%EC%9E%A5.%20%EC%9B%90%EC%8B%9C%20%EA%B0%92%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%B9%84%EA%B5%90.md) |
 | 12장 | 함수                                                 | 2022-11-10 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/12%EC%9E%A5.%20%ED%95%A8%EC%88%98.md) |
-| 13장 | 스코프                                               | 2022-10-20 |  ✍️   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/13%EC%9E%A5.%20%EC%8A%A4%EC%BD%94%ED%94%84.md) |
+| 13장 | 스코프                                               | 2022-10-20 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/13%EC%9E%A5.%20%EC%8A%A4%EC%BD%94%ED%94%84.md) |
 | 14장 | 전역 변수의 문제점                                   |            |      |                                                              |
 | 15장 | let, const 키워드와 블록 레벨 스코프                 |            |      |                                                              |
 | 16장 | 프로퍼티 어트리뷰트                                  |            |      |                                                              |

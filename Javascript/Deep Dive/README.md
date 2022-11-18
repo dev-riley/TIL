@@ -6,9 +6,9 @@
 
 | 목차 | 제목                                                 | 완료한 날  | 상태 |                             링크                             |
 | :--: | ---------------------------------------------------- | :--------: | :--: | :----------------------------------------------------------: |
-| 1장  | 프로그래밍                                           |            |      |                                                              |
-| 2장  | 자바스크립트란?                                      |            |      |                                                              |
-| 3장  | 자바스크립트 개발 환경과 실행 방법                   |            |      |                                                              |
+| 1장  | 프로그래밍                                           |            |  ✅   |                                                              |
+| 2장  | 자바스크립트란?                                      |            |  ✅   |                                                              |
+| 3장  | 자바스크립트 개발 환경과 실행 방법                   |            |  ✅   |                                                              |
 | 4장  | 변수                                                 | 2022-10-21 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/4%EC%9E%A5.%20%EB%B3%80%EC%88%98.md) |
 | 5장  | 표현식과 문                                          | 2022-10-24 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/5%EC%9E%A5.%20%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC%20%EB%AC%B8.md) |
 | 6장  | 데이터 타입                                          | 2022-10-25 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/6%EC%9E%A5.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md) |
@@ -21,7 +21,7 @@
 | 13장 | 스코프                                               | 2022-10-20 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/13%EC%9E%A5.%20%EC%8A%A4%EC%BD%94%ED%94%84.md) |
 | 14장 | 전역 변수의 문제점                                   | 2022-11-13 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/14%EC%9E%A5.%20%EC%A0%84%EC%97%AD%20%EB%B3%80%EC%88%98%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md) |
 | 15장 | let, const 키워드와 블록 레벨 스코프                 | 2022-11-15 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/15%EC%9E%A5.%20let%2C%20const%20%ED%82%A4%EC%9B%8C%EB%93%9C%EC%99%80%20%EB%B8%94%EB%A1%9D%20%EB%A0%88%EB%B2%A8%20%EC%8A%A4%EC%BD%94%ED%94%84.md) |
-| 16장 | 프로퍼티 어트리뷰트                                  |            |      |                                                              |
+| 16장 | 프로퍼티 어트리뷰트                                  | 2022-11-18 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/16%EC%9E%A5.%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EC%96%B4%ED%8A%B8%EB%A6%AC%EB%B7%B0%ED%8A%B8.md) |
 | 17장 | 생성자 함수에 의한 객체 생성                         |            |      |                                                              |
 | 18장 | 함수와 일급 객체                                     |            |      |                                                              |
 | 19장 | 프로토타입                                           |            |      |                                                              |

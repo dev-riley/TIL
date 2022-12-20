@@ -26,7 +26,7 @@
 | 18장 | 함수와 일급 객체                                     | 2022-11-25 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/18%EC%9E%A5.%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%9D%BC%EA%B8%89%20%EA%B0%9D%EC%B2%B4.md) |
 | 19장 | 프로토타입                                           | 2022-12-05 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/19%EC%9E%A5.%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md) |
 | 20장 | strict mode                                          | 2022-12-08 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/20%EC%9E%A5.%20strict%20mode.md) |
-| 21장 | 빌트인 객체                                          |            |      |                                                              |
+| 21장 | 빌트인 객체                                          | 2022-12-20 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/21%EC%9E%A5.%20%EB%B9%8C%ED%8A%B8%EC%9D%B8%20%EA%B0%9D%EC%B2%B4.md) |
 | 22장 | this                                                 |            |      |                                                              |
 | 23장 | 실행 컨텍스트                                        |            |      |                                                              |
 | 24장 | 클로저                                               |            |      |                                                              |

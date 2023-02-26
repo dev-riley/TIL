@@ -30,7 +30,8 @@
 | 22장 | this                                                 | 2022-12-29 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/22%EC%9E%A5.%20this.md) |
 | 23장 | 실행 컨텍스트                                        | 2023-01-16 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/23%EC%9E%A5.%20%EC%8B%A4%ED%96%89%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md) |
 | 24장 | 클로저                                               | 2023-02-07 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/24%EC%9E%A5.%20%ED%81%B4%EB%A1%9C%EC%A0%80.md) |
-| 25장 | 클래스                                               |            |  ✍️   |                                                              |
+| 25장 | 클래스 (1)                                           | 2023-02-26 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/25%EC%9E%A5.%20%ED%81%B4%EB%9E%98%EC%8A%A4(1).md) |
+| 25장 | 클래스 (2)                                           |            |      |                                                              |
 | 26장 | ES6 함수의 추가 기능                                 |            |      |                                                              |
 | 27장 | 배열                                                 |            |      |                                                              |
 | 28장 | Number                                               |            |      |                                                              |

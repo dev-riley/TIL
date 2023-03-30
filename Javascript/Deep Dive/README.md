@@ -44,7 +44,7 @@
 | 35장 | 스프레드 문법                                        |            |      |                                                              |
 | 36장 | 디스트럭처링 할당                                    |            |      |                                                              |
 | 37장 | Set과 Map                                            |            |      |                                                              |
-| 38장 | 브라우저의 렌더링 과정                               |            |      |                                                              |
+| 38장 | 브라우저의 렌더링 과정                               | 2023-03-30 |  ✅   | [바로가기](https://github.com/dev-riley/TIL/blob/master/Javascript/Deep%20Dive/38%EC%9E%A5.%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EA%B3%BC%EC%A0%95.md) |
 | 39장 | DOM                                                  |            |      |                                                              |
 | 40장 | 이벤트                                               |            |      |                                                              |
 | 41장 | 타이머                                               |            |      |                                                              |
